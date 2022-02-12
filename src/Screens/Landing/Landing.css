@@ -1,0 +1,34 @@
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../Register-background.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .intro-text {
+    width: 100%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  
+
+  .subtitle{
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 40px;
+  }
+
+  @media (max-width:850px){
+      .subtitle{
+          font-size: 14px;
+      }
+  }
+
+  .buttonContainer{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 80px;
+  }
